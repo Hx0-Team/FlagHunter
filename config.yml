@@ -22,7 +22,7 @@ flag_rules:
       hex_curly: true
       hex_plain: true
 
-  # 示例 2：搜索 "wdctf"，仅启用明文模式
+  # 示例 2：搜索 "wdctf"，启用所有编码模式
   - prefix: "wdctf"
     variants:
       plaintext: true
@@ -30,7 +30,7 @@ flag_rules:
       hex_curly: true
       hex_plain: true
 
-  # 示例 3：搜索 "nssctf"，仅启用明文 + Base64
+  # 示例 3：搜索 "nssctf"，启用所有编码模式
   - prefix: "nssctf"
     variants:
       plaintext: true
